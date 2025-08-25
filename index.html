@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>🐳 Docker Web Application</h1>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to My Containerized Web App!</h2>
+            <p>This application is running inside a Docker container with Ubuntu as the base image.</p>
+            <button id="interactBtn" class="btn-primary">Click Me!</button>
+            <div id="message" class="message"></div>
+        </section>
+        
+        <section class="features">
+            <div class="feature-card">
+                <h3>🚀 Docker Powered</h3>
+                <p>Built and deployed using Docker containers</p>
+            </div>
+            <div class="feature-card">
+                <h3>🌐 Web Technology</h3>
+                <p>Pure HTML, CSS, and JavaScript</p>
+            </div>
+            <div class="feature-card">
+                <h3>☁️ Cloud Ready</h3>
+                <p>Ready for deployment to any cloud platform</p>
+            </div>
+        </section>
+        
+        <section class="stats">
+            <div class="stat-item">
+                <h4 id="counter">0</h4>
+                <p>Button Clicks</p>
+            </div>
+            <div class="stat-item">
+                <h4 id="timestamp">--:--:--</h4>
+                <p>Current Time</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Docker Web App. Containerized with ❤️</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
